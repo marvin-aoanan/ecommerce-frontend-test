@@ -1,0 +1,11 @@
+.card-custom {
+  border: 1px solid #efefef;
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 0px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-custom:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
